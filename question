@@ -1,0 +1,16 @@
+#(simulate a mobile billing application,
+#(accept consumers name, mobile number,
+#(number of local calls,
+#(units of data usage,
+#(numbers of SMS,
+#(Number of STD calls,
+#(calculate bill amount on basis of following rates,
+#(local calls at 1.5, if number of calls are above 500, then excess calls will be charged at 2rs per call
+#(Number of SMS  50 < 50 then free charge, each extra message is 0.5
+#(all STD calls are 3rs per call)
+#Data has to be charged 30rs per GB data has to accepted in bytes
+#calculate bill amount give a durcharge at 5% on bill amount
+#accept mode of payment from user if it is cash
+#acce[t cash given by user give change
+#if payment option is Paytm calculate 2% cashback
+#if payment option is visa card take 3% extra money
