@@ -1,4 +1,4 @@
-a = int(input("enter a number for factorial: "))
+a = float(input("enter a number for factorial: "))
 if a < 0:
     print("enter a valid number")
         
