@@ -1,20 +1,11 @@
-a = float(input("Enter a number: "))
+a = int(input("Enter a number"))
 
-b = 0
+digits = 0
 
-c = a
+while a > 0:
+    digits = digits + 1
+    
+    a = a//10
 
-while c > 0:
-    num = c % 10
-
-    b += num ** 3
-
-    c //= 10
-
-
-if a == b:
-    print(a, "is an armstrong number")
-
-else:
-    print(a, "is not an armstrong number")
-
+print("the number of digits in", a, "are", digits)    
+    
