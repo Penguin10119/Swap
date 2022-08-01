@@ -1,4 +1,4 @@
-a = int(input("Enter a number"))
+a = int(input("Enter a number: "))
 
 digits = 0
 
