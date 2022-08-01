@@ -7,5 +7,5 @@ while a > 0:
     
     a = a//10
 
-print("the number of digits in", a, "are", digits)    
+print("the number of digits in the number are", digits)    
     
